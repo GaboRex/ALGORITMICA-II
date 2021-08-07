@@ -8,5 +8,9 @@
 - [Backtracking](ContenidoMateria/Backtracking)
 - [Teoría de Números](ContenidoMateria/TeoriaDeNumeros)
 - [Otros](ContenidoMateria/Otros)
-### Problemas-Jueces:
+## Problemas-Jueces:
 _Muy pronto 🗡️_
+
+## Autor:✒️
+
+* **Gabriel Neme** -[GaboRex](https://github.com/GaboRex)
