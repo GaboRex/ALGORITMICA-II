@@ -7,8 +7,8 @@
 - [Programación Dinámica](ContenidoMateria/ProgramacionDinamica)
 - [Backtracking](ContenidoMateria/Backtracking)
 - [Teoría de Números](ContenidoMateria/TeoriaDeNumeros)
-- [Backtracking](ContenidoMateria/BusquedaBinaria)
-- [Teoría de Números](ContenidoMateria/Geometria)
+- [Busqueda Binaria](ContenidoMateria/BusquedaBinaria)
+- [Geometría](ContenidoMateria/Geometria)
 - [Otros](ContenidoMateria/Otros)
 ## Problemas-Jueces:
 _Muy pronto 🍺_
