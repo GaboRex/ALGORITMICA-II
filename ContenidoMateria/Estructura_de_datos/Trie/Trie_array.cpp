@@ -46,30 +46,19 @@ bool searchWord(string word) {   // alto
     return currentNode->isWord;
 }
 
+//metodo delete
 
-/*
-int findWords(string prefix) {   // alto 
-    node *currentNode =  trie;  
-    for (int i = 0; i< prefix.length(); i++) {
-        int character = prefix[i] - 'a';       // i = 0 'a'-'a' = 0
-        if(currentNode->children[character] == NULL ) {
-           return 0;
+bool trieDelete(string word){
+    if(searchWord(word)){
+        node *currentNode = trie;
+        for(int i = 0; i < word.length(); i++){
+            int character = word[i] - 'a';
+            currentNode ->children[character];
+            currentNode = currentNode -> children[character];
         }
-        currentNode = currentNode->children[character];
+        currentNode-> isWord =false;
     }
-    return currentNode->countWords;
-}*/
-/*
-void showTrie(node currentNode ) {
-    node *currentNode =  trie;  
-    for (int i =0; i< 27; i++) {
-        currentNode = currentCharacter = word[i];
-        cout (char(i+'a'));
-        showTrie(currentNode)
-    }
-}*/ 
-
-
+}
 void isThereWord(string word) {
     if(searchWord(word)) {
         cout<<"si existe : "<<word<<" en el trie"<<endl;
@@ -89,5 +78,6 @@ int main() {
     insertWord(word);
     isThereWord("auto");
     isThereWord(word);
+    trieDelete(word);
     return 0;
 }

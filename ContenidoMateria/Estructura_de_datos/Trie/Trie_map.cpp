@@ -33,7 +33,10 @@ void insertWord(string word)
     currentNode->isWord=true;
     cout<<"Se insertó la palabra "<<word<<endl;
 }
+void deleteWord(string word){
+    bool isWord = false;
 
+}
 int main() {
 
     // Inicializar Trie
@@ -43,7 +46,7 @@ int main() {
     string word = "auto";
     insertWord(word);
     word = "automovil";   
-    insertWord(word);
+    deleteWord(word);
     cout<<numberOfNodes++<<endl;
     return 0;
 }
