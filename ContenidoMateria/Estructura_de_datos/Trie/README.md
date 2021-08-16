@@ -1,3 +1,5 @@
+![PicsArt_08-16-03 32 51 2](https://user-images.githubusercontent.com/80688833/129620024-bffc2f88-a9fb-4a02-8ce6-583bc609db12.png)
+
 _Trie, también conocido como árbol de diccionario y árbol de prefijos, es una estructura de árbol, una variante del árbol hash y una estructura de múltiples árboles para una rápida recuperación. Es un árbol con raíz donde cada arco está etiquetado con un carácter, y dos arcos con la misma etiqueta no pueden salir del mismo nodo. De esta manera, cada nodo representa al string que se obtiene de mirar el camino desde la raíz a él._
 _Para insertar un string a un trie, sólo hay que ir recorriéndolo desde la raíz creando los árcos y los nodos que hagan falta. Por ejemplo,si queremos agregar la palabra "TENAZ", llegaremos hasta el nodo "TEN", y luego vamos a tener que agregar dos arcos (y sus correspondientes nodos): A y Z para formar "TENAZ"._
 
