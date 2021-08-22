@@ -1,0 +1,5 @@
+![Segment Tree](https://user-images.githubusercontent.com/80688833/130368238-25fd82c8-fd35-4c98-8dc6-a13b0a3cc353.png)
+
+_El ST es una estructura de datos muy versátil que sirve para responder varias consultas de agregación tipo máximo, mínimo, sumas, promedio, multiplicaciones y otras menos estándar, en tiempo log N para un universo de N elementos. Típicamente el ST se construye para responder consultas sobre un arreglo (como "entrégame el mínimo valor entre los índices i y j del arreglo"). También se pueden hacer actualizaciones de elementos de ese arreglo que tardan tiempo log N. Si tenemos entonces un problema donde hay Q consultas (preguntas por rango y actualizaciones de elementos) sobre un arreglo de largo N, el tiempo total de la solución con ST será Ο(Q log N) más el tiempo de construcción inicial del ST (que se puede lograr en Ο(N log N))._
+
+![image](https://user-images.githubusercontent.com/80688833/130368376-2f223415-5215-4ef3-8908-b4f2ed71358b.png)

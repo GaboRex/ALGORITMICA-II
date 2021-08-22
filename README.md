@@ -1,4 +1,4 @@
-![2 inicio](https://user-images.githubusercontent.com/80688833/128616177-c6121577-abc6-4b54-aac5-2dd545f78dd5.png)
+
 # ALGORITMICA-II
 ## Algoritmos:
 
