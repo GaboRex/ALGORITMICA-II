@@ -10,8 +10,8 @@
 - [Busqueda Binaria](ContenidoMateria/BusquedaBinaria)
 - [Geometría](ContenidoMateria/Geometria)
 - [Otros](ContenidoMateria/Otros)
-## Problemas-Jueces:
-_Muy pronto 🍺_
+## Problemas-Jueces🍺:
+- [Judge](ProblemasJueces)
 
 ## Autor:✒️
 
