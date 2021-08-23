@@ -3,9 +3,9 @@
 ## Algoritmos:
 
 - [Estructura de datos](ContenidoMateria/Estructura_de_datos)
-- [Grafos](ContenidoMateria/Grafos)
+- [Backtracking & ](ContenidoMateria/Backtracking)
 - [Programación Dinámica](ContenidoMateria/ProgramacionDinamica)
-- [Backtracking & DP](ContenidoMateria/Backtracking)
+- [Grafos](ContenidoMateria/Grafos)
 - [Teoría de Números](ContenidoMateria/TeoriaDeNumeros)
 - [Busqueda Binaria](ContenidoMateria/BusquedaBinaria)
 - [Geometría](ContenidoMateria/Geometria)
