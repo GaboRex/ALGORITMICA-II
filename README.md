@@ -3,7 +3,7 @@
 ## Algoritmos:
 
 - [Estructura de datos](ContenidoMateria/Estructura_de_datos)
-- [Backtracking & ](ContenidoMateria/Backtracking)
+- [Backtracking](ContenidoMateria/Backtracking)
 - [Programación Dinámica](ContenidoMateria/ProgramacionDinamica)
 - [Grafos](ContenidoMateria/Grafos)
 - [Teoría de Números](ContenidoMateria/TeoriaDeNumeros)
