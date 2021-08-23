@@ -1,0 +1,5 @@
+![PicsArt_08-22-03 58 17](https://user-images.githubusercontent.com/80688833/130370007-afb1176f-bd81-4849-8bd3-87710633b1d2.png)
+
+_Edit distance es una forma de cuantificar qué tan diferentes son dos cadenas (por ejemplo, palabras) entre sí contando el número mínimo de operaciones necesarias para transformar una cadena en la otra. Editar distancias encontrar aplicaciones en procesamiento de lenguaje natural,donde la corrección ortográfica automática puede determinar las correcciones candidatas para una palabra mal escrita seleccionando palabras de un diccionario que tienen poca distancia a la palabra en cuestión. En bioinformática, se puede utilizar para cuantificar la similitud de las secuencias de ADN, que pueden verse como cadenas de las letras A, C, G y T._
+
+![image](https://user-images.githubusercontent.com/80688833/130376785-b9b2e95d-c14b-4f0d-b127-65c819d5b7e1.png)

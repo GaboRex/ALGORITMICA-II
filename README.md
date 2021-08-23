@@ -5,12 +5,12 @@
 - [Estructura de datos](ContenidoMateria/Estructura_de_datos)
 - [Grafos](ContenidoMateria/Grafos)
 - [Programación Dinámica](ContenidoMateria/ProgramacionDinamica)
-- [Backtracking & DP](ContenidoMateria/BacktrackingDP)
+- [Backtracking & DP](ContenidoMateria/Backtracking)
 - [Teoría de Números](ContenidoMateria/TeoriaDeNumeros)
 - [Busqueda Binaria](ContenidoMateria/BusquedaBinaria)
 - [Geometría](ContenidoMateria/Geometria)
 - [Otros](ContenidoMateria/Otros)
-## Problemas-Jueces🍺:
+## Problemas-Jueces:🍺
 - [Judge](ProblemasJueces)
 
 ## Autor:✒️
