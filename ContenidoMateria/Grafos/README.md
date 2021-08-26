@@ -1,7 +1,7 @@
 # ALGORITMICA-II
 ## Teoria de Grafos:
 
-- [Kruskal](kruskal)
+- [Kruskal](Kruskal)
 
 ### Problemas-Jueces:
 _Muy pronto 🗡️_
