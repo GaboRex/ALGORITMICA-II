@@ -1,0 +1,19 @@
+Método Kruskal(Grafo)
+
+          Se inicializa el árbol de expansión mínima vacío                                                 
+Se inicializa una estructura de unión-búsqueda                                                    
+
+Se ordenan las aristas de menor a mayor peso                                                     
+
+          Para cada arista a que une 2 vértices (u, v)
+    Si u y v no están en la misma componente
+
+               Se añade la arista a al árbol de expansión mínima. 
+
+                           Se unen  las componentes de u y v
+
+                Fin Si
+
+Fin Para
+
+    Fin Método Kruskal

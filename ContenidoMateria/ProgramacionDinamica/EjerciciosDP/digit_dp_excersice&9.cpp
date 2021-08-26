@@ -5,7 +5,7 @@ using namespace std;
 string number = "307"; //El numero de la derecha, seria como b
 int dp[20][2][20]; //20 ya que 10^18 tiene 20 digitos, 2 ya que solo es V o F, y 20 ya que en el peor, todas las posiciones seran pares
 
-bool isPrime(int n)
+bool impar(int n)
 {
     if (n <= 1) {
         return false;
@@ -33,7 +33,7 @@ int solveDP(int pos, int mayor, int digitos) {
 
     if(pos==number.size()) {
 
-        if(isPrime(digitos)) {// La suma de los digitos es un primo?
+        if(impar(digitos)) {// La suma de los digitos es un primo?
 
             return 1;
 

@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
+//... Aqui vamos de nuevo gg
 typedef long long ll;
 typedef pair<int,int> ii;
 typedef unsigned long long ull;
@@ -66,7 +65,7 @@ data findMax(int k, int l, int r, int L, int R) {
 }
 
 int main() {
-
+    //LO LANZAMOS CON TODO
 	cin >> n;
 	FOR(i,1,n) scanf("%lld", a+i);
 
@@ -87,7 +86,5 @@ int main() {
 			printf("%lld\n", p.value + pm.value);
 		}
 	}
-
-
 	return 0;
 }

@@ -3,22 +3,18 @@
 #define output freopen("out.txt", "w", stdout)
 
 using namespace std;
- 
 const int maxn=100100;
 typedef pair<int,int> pII;
- 
 pII b[maxn];
 int n,s[maxn];
 int g[maxn<<2];
  
-int gcd(int x,int y)
-{
+int gcd(int x,int y){
 	if(x==0) return y;
 	return gcd(y%x,x);
 }
  
-void build(int l,int r,int rt)
-{
+void build(int l,int r,int rt){
 	if(l==r)
 	{
 		g[rt]=s[l];
@@ -29,8 +25,7 @@ void build(int l,int r,int rt)
 	g[rt]=gcd(g[rt<<1],g[rt<<1|1]);
 }
  
-int query(int L,int R,int l,int r,int rt)
-{
+int query(int L,int R,int l,int r,int rt){
 	if(r<L||l>R) return 0;
 	if(L<=l&&r<=R)
 	{
@@ -42,11 +37,9 @@ int query(int L,int R,int l,int r,int rt)
 	return gcd(u,v);
 }
  
-int main()
-{
+int main(){
 	scanf("%d",&n);
-	for(int i=1;i<=n;i++)
-	{
+	for(int i=1;i<=n;i++){
 		scanf("%d",s+i);
 		b[i]=(make_pair(s[i],i));
 	}
@@ -54,8 +47,7 @@ int main()
 	build(1,n,1);
 	int m;
 	scanf("%d",&m);
-	while(m--)
-	{
+	while(m--){
 		int Left,Right;
 		scanf("%d%d",&Left,&Right);
 		int G=query(Left,Right,1,n,1);
