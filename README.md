@@ -7,7 +7,6 @@
 - [Programación Dinámica](ContenidoMateria/ProgramacionDinamica)
 - [Grafos](ContenidoMateria/Grafos)
 - [Teoría de Números](ContenidoMateria/TeoriaDeNumeros)
-- [Busqueda Binaria](ContenidoMateria/BusquedaBinaria)
 - [Geometría](ContenidoMateria/Geometria)
 - [Otros](ContenidoMateria/Otros)
 ## Problemas-Jueces:🍺
