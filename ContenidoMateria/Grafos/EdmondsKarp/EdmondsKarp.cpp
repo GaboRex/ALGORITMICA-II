@@ -6,7 +6,7 @@ int grafo[MAX_N][MAX_N];
 int path[MAX_N];
 
 
-int maxFlow(int s,int t) {
+int maximoFlujo(int s,int t) {
     // s nodo inicial
     // t nodo final
     int maxFlow = 0;
@@ -66,6 +66,6 @@ int main() {
             grafo[from][to] = capacity;          // camino capacidad
             grafo[to][from] = 0;                //  flujo camino residual
         }
-        cout<<maxFlow(s,t)<<endl; //Mandamos e imprimimos el maximo flujo
+        cout<<maximoFlujo(s,t)<<endl; //Mandamos e imprimimos el maximo flujo
     }
 }
